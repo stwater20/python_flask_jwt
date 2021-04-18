@@ -7,7 +7,7 @@ app = Flask(__name__)
 jwt = JWTManager()
 
 # 設定 JWT 密鑰
-app.config['JWT_SECRET_KEY'] = '22059512'
+app.config['JWT_SECRET_KEY'] = '{SET YOUR KEY}'
 jwt.init_app(app)
 
 
